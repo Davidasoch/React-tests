@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -95,6 +96,10 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
+
+        <Link href="/pages/firsttest">
+          <a>redireccion a firsttest con link</a>
+        </Link>
       </footer>
     </div>
   );
