@@ -22,6 +22,11 @@ export default function Home() {
             .
           </li>
           <li>Save and see your changes instantly.</li>
+
+          <li>this line will work?<Link href="/pages/firsttest">
+          <a>redireccion a firsttest con link</a>
+        </Link>
+        </li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
@@ -97,9 +102,7 @@ export default function Home() {
           Go to nextjs.org → link
         </a>
 
-        <Link href="/pages/firsttest">
-          <a>redireccion a firsttest con link</a>
-        </Link>
+
       </footer>
     </div>
   );
